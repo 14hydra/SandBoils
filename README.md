@@ -3,8 +3,8 @@
 **High-Performance Detection of Sand Boils in Levee/Dam Imagery Using Deep Learning**
 
 ### Project Overview
-This project trains a deep learning semantic segmentation model to automatically detect **sand boils** (also known as sand volcanoes or piping failures) in real-world and synthetic levee inspection images.  
-Sand boils are critical indicators of internal erosion and potential levee failure — early detection can prevent catastrophic breaches.
+This project trains a deep learning semantic segmentation model to automatically detect **sand boils** in real-world and synthetic levee inspection images.  
+Sand boils are critical indicators of internal erosion and potential levee failure - early detection can prevent catastrophic breaches.
 
 **Best Result Achieved**: **0.65+ Dice Score** on real-world test images  
 **Model Used**: `U-Net` with `swinv2_small_window16_256` or `efficientnet-b4` backbone  
