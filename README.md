@@ -6,8 +6,8 @@
 This project trains a deep learning semantic segmentation model to automatically detect **sand boils** (also known as sand volcanoes or piping failures) in real-world and synthetic levee inspection images.  
 Sand boils are critical indicators of internal erosion and potential levee failure — early detection can prevent catastrophic breaches.
 
-**Best Result Achieved**: **0.91+ Dice Score** on real-world test images  
-**Model Used**: `U-Net` with `swinv2_small_window16_256` or `efficientnet-b5` (noisy-student) backbone  
+**Best Result Achieved**: **0.65+ Dice Score** on real-world test images  
+**Model Used**: `U-Net` with `swinv2_small_window16_256` or `efficientnet-b4` backbone  
 **Framework**: PyTorch + segmentation-models-pytorch (SMP) + Albumentations
 
 ---
