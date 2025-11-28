@@ -26,9 +26,9 @@ Sand boils are critical indicators of internal erosion and potential levee failu
 | 8. Model Builder (`model_builder`) | Supports multiple architectures | **Recommended**: `"EfficientNet"` → EfficientNet B4 |
 | 9. Loss Function | Combined loss | `CombinedLoss` |
 | 10. Training Loop | Full training + validation with Dice tracking | Saves best model by **highest validation Dice** |
-| 11. Visualization Functions | `show_prediction()`, `visualize_dataset()` | Includes proper denormalization for display |
-| 12. Test Evaluation | Final Dice score on unseen real images | Critical metric: **Test Dice > 0.60** |
-| 13. Best Model Save | `best_sandboil_model.pth` | Saved automatically when val Dice improves |
+| 11. Best Model Save | `best_sandboil_model.pth` | Saved automatically when val Dice improves |
+| 12. Visualization Functions | `show_prediction()`, `visualize_dataset()` | Includes proper denormalization for display |
+| 13. Test Evaluation | Final Dice score on unseen real images | Critical metric: **Test Dice > 0.60** |
 
 ---
 
