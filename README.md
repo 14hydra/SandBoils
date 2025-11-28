@@ -43,5 +43,5 @@ NUM_EPOCHS = 25
 model, device = model_builder("EfficientNet")  # Uses EfficientNet B4
 
 optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-3)
-loss_fn = smp.losses.TverskyLoss(mode='binary', from_logits=True, alpha=0.7)
+loss_fn = smp.losses.TverskyLoss(mode='binary', from_logits=True, alpha=0.75)
 # or: loss_fn = smp.losses.DiceLoss(mode='binary', from_logits=True)
